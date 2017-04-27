@@ -1,0 +1,10 @@
+[
+	{"field":"id","title":"主键","width":"100","align":"center"},
+	{"field":"username","title":"用户名","width":"100","editor":{"type":"text"},"align":"center"},
+	{"field":"password","title":"密码","width":"100","editor":{"type":"text"},"align":"center"},
+	{"field":"type","title":"账户类型","width":"100","editor":{"type":"text"},"align":"center"},
+	{"field":"creattime","title":"创建时间","width":"200","align":"center"},
+	{"field":"updatetime","title":"修改时间","width":"200","align":"center"},
+	{"field":"state","title":"账号状态","width":"100","editor":{"type":"text"},"align":"center"},
+	{"field":"remarks","title":"备注","width":"100","editor":{"type":"text"},"align":"center"}
+]

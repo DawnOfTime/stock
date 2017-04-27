@@ -1,0 +1,5 @@
+[
+	{"field":"id","title":"主键","width":"100","align":"center"},
+	{"field":"rname","title":"角色名称","width":"100","editor":{"type":"text"},"align":"center"},
+	{"field":"rnum","title":"角色编号","width":"100","editor":{"type":"text"},"align":"center"}
+]

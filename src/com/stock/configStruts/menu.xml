@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="menu" namespace="/menu" extends="struts-default">
+		<!-- 展示菜单列表 -->
+		<action name="show" class="com.stock.menu.action.MenuAction" method="showMenu"></action>
+		<!-- 查询 -->
+		<action name="find" class="com.stock.menu.action.MenuAction" method="findMenu"></action>
+		<!-- 增删改 -->	
+		<action name="save" class="com.stock.menu.action.MenuAction" method="save"></action>
+	</package>
+</struts>

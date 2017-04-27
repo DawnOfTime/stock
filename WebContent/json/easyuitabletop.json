@@ -1,0 +1,9 @@
+[  
+		        [{"title":"1","colspan":3},  
+		         {"title":"2","colspan":3}],  
+		        [{"field":"id","title":"主键","width":"100","align":"center"},
+		     	 {"field":"username","title":"用户名","width":"100","editor":{"type":"text"},"align":"center"},
+		    	 {"field":"password","title":"密码","width":"100","editor":{"type":"text"},"align":"center"},  
+		    	 {"field":"id","title":"主键","width":"100","align":"center"},
+		    	 {"field":"username","title":"用户名","width":"100","editor":{"type":"text"},"align":"center"},
+		    	 {"field":"password","title":"密码","width":"100","editor":{"type":"text"},"align":"center"}]]

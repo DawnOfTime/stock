@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<!-- <constant name="struts.allowed.action.names" value="[a-zA-Z0-9._!/\-]*"></constant> -->
+	<include file="com/stock/configStruts/login.xml"></include>
+	<include file="com/stock/configStruts/menu.xml"></include>
+	<include file="com/stock/configStruts/acc.xml"></include>
+	<include file="com/stock/configStruts/rule.xml"></include>
+	<include file="com/stock/configStruts/department.xml"></include>
+	<include file="com/stock/configStruts/personnel.xml"></include>
+	<include file="com/stock/configStruts/supplier.xml"></include>
+	<include file="com/stock/configStruts/depot.xml"></include>
+	<include file="com/stock/configStruts/goodsmanagement.xml"></include>
+	<include file="com/stock/configStruts/goodsapply.xml"></include>
+</struts>

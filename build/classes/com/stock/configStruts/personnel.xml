@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="personnel" namespace="/personnel" extends="struts-default">
+		<!-- 查询 -->
+		<action name="find" class="com.stock.personnel.action.PersonnelAction" method="findPersonnel"></action>
+		<!-- 增删改 -->	
+		<action name="save" class="com.stock.personnel.action.PersonnelAction" method="save"></action>
+		<!-- 查询角色类型 -->
+		<action name="ruletype" class="com.stock.personnel.action.PersonnelAction" method="ruletype"></action>
+		<!-- 查询部门 -->
+		<action name="department" class="com.stock.personnel.action.PersonnelAction" method="department"></action>
+		<!-- 重置密码 -->
+		<action name="resetpassword" class="com.stock.personnel.action.PersonnelAction" method="resetpassword">
+			<result name="success">/jsp/personManager.jsp</result>
+		</action>
+	</package>
+</struts>

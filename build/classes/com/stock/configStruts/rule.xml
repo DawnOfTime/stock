@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="rule" namespace="/rule" extends="struts-default">
+		<!-- 查询 -->
+		<action name="find" class="com.stock.rule.action.RuleAction" method="find"></action>
+		<!-- 增删改 -->	
+		<action name="save" class="com.stock.rule.action.RuleAction" method="save"></action>
+		<!-- 加载菜单树 -->
+		<action name="menuTree" class="com.stock.rule.action.RuleAction" method="menuTree"></action>
+		<!-- 保存该角色权限设置 -->
+		<action name="powerSet" class="com.stock.rule.action.RuleAction" method="powerSet"></action>
+	</package>
+</struts>

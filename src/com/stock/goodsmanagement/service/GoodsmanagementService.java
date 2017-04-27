@@ -1,0 +1,104 @@
+package com.stock.goodsmanagement.service;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import net.sf.json.JSONArray;
+
+import com.stock.comm.TreeUtil;
+import com.stock.goodsmanagement.dao.GoodsmanagementDao;
+import com.stock.pojo.Goods;
+//import com.stock.pojo.Menu;
+
+public class GoodsmanagementService {
+	GoodsmanagementDao dao = new GoodsmanagementDao();
+	//删除节点
+	public void removetree(Goods goods) {
+		dao.removetree(goods);
+	}
+	//添加节点
+	public void addtree(Goods goods){
+		String code = goods.getNum();
+		int a = (code.toCharArray().length)/2;
+		goods.setLevel(a+"");
+		dao.addtree(goods);
+	}
+	//修改节点
+	public void updatetree(Goods goods){
+		dao.updatetree(goods);
+	}
+	//生成树
+	public String tree(){
+		List list = dao.tree();
+		return backComboTreeTreeRole(list);
+	}
+	
+	
+	List<Map<String,Object>> comboTreeList  =new ArrayList<Map<String,Object>>(); 
+	
+	/** 
+	 * 返回 treeGrid(树形表格)需要的json格式数据 
+	 * 前端调用的就是这个方法 
+	 */
+	@SuppressWarnings("unchecked")  
+	public String backComboTreeTreeRole(List list){  
+	    //调用方法实现菜单树
+	    createComboTreeTree(list,"root");  
+	    //将集合转换为json输出到页面
+	    String json = JSONArray.fromObject(comboTreeList)+"";
+	    return json;  
+	}  
+	
+	/** 
+	 * 将goods封装成树开始
+	 * @param list 
+	 * @param  
+	 */  
+	private void createComboTreeTree(List<Goods> list, String fid) {  
+	    for (int i = 0; i < list.size(); i++) {  
+	        Map<String, Object> map = null;  
+	        Goods menu = (Goods) list.get(i);  
+	        if (menu.getFather_num().equals(fid)) {  
+	            map = new HashMap<String, Object>();  
+	            //这里必须要将对象角色的id、name转换成ComboTree在页面的显示形式id、text  
+	            //ComboTree,不是数据表格，没有在页面通过columns转换数据的属性
+	            map.put("id", list.get(i).getNum());         //id  
+	            map.put("text",list.get(i).getName());      //��ɫ��  
+//	            map.put("checked", list.get(i).getChecked());//�Ƿ�ѡ��
+//	            map.put("state", "closed");
+	            map.put("children", createComboTreeChildren(list, menu.getNum()));  
+	        }  
+	        if (map != null)  
+	            comboTreeList.add(map);  
+	    }  
+	}
+	/** 
+	 * 递归设置goods树
+	 * @param list 
+	 * @param fid 
+	 * @return 
+	 */ 
+	private List<Map<String, Object>> createComboTreeChildren(List<Goods> list, String fid) {  
+	    List<Map<String, Object>> childList = new ArrayList<Map<String, Object>>();  
+	    for (int j = 0; j < list.size(); j++) {  
+	        Map<String, Object> map = null;  
+	        Goods treeChild = (Goods) list.get(j);  
+	        if (treeChild.getFather_num().equals(fid)) {  
+	            map = new HashMap<String, Object>();  
+	            //这里必须要将对象角色的id、name转换成ComboTree在页面的显示形式id、text  
+	            //ComboTree,不是数据表格，没有在页面通过columns转换数据的属性 
+	            map.put("id", list.get(j).getNum());  
+	            map.put("text", list.get(j).getName());  
+//	            map.put("checked", list.get(j).getChecked());//�Ƿ�ѡ��
+//	            map.put("state", "closed");
+	            map.put("children", createComboTreeChildren(list, treeChild.getNum()));  
+	        }  
+	          
+	        if (map != null)  
+	            childList.add(map);  
+	    }  
+	    return childList;  
+	}
+}

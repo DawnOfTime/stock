@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="login" namespace="/login" extends="struts-default">
+	<!-- 登录 -->
+		<action name="login" class="com.stock.login.action.LoginAction" method="login">
+			<result name="success">/jsp/index.jsp</result>
+			<result name="lost">/jsp/login.jsp</result>
+		</action>
+	<!-- 注册 -->	
+	<!-- 修改密码 -->	
+	<!-- 退出 -->
+		<action name="exit" class="com.stock.login.action.LoginAction" method="exit">
+			<result name="success">/jsp/login.jsp</result>
+		</action>	
+	</package>
+</struts>

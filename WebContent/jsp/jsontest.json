@@ -1,0 +1,519 @@
+[
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010101",
+                                                "text": "副院长"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010102",
+                                                "text": "院长助理"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010103",
+                                                "text": "人力资源总监"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010104",
+                                                "text": "财务总监"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010105",
+                                                "text": "行政总监"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010106",
+                                                "text": "办公室主任"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010107",
+                                                "text": "干事"
+                                            }
+                                        ],
+                                        "checked": null,
+                                        "id": "0101010101",
+                                        "text": "院长办公室"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010201",
+                                                "text": "处长"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010202",
+                                                "text": "人力资源专员"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010203",
+                                                "text": "绩效考核专员"
+                                            }
+                                        ],
+                                        "checked": null,
+                                        "id": "0101010102",
+                                        "text": "人力资源处"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010301",
+                                                "text": "财务总监"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010302",
+                                                "text": "财务处长"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010303",
+                                                "text": "会计"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101010304",
+                                                "text": "出纳"
+                                            }
+                                        ],
+                                        "checked": null,
+                                        "id": "0101010103",
+                                        "text": "财务处"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [],
+                                                                "checked": null,
+                                                                "id": "0101010104010101",
+                                                                "text": "科长"
+                                                            },
+                                                            {
+                                                                "children": [],
+                                                                "checked": null,
+                                                                "id": "0101010104010102",
+                                                                "text": "资产管理员"
+                                                            },
+                                                            {
+                                                                "children": [],
+                                                                "checked": null,
+                                                                "id": "0101010104010103",
+                                                                "text": "网络管理员"
+                                                            },
+                                                            {
+                                                                "children": [],
+                                                                "checked": null,
+                                                                "id": "0101010104010104",
+                                                                "text": "库管员"
+                                                            }
+                                                        ],
+                                                        "checked": null,
+                                                        "id": "01010101040101",
+                                                        "text": "资产管理科"
+                                                    },
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [],
+                                                                "checked": null,
+                                                                "id": "0101010104010201",
+                                                                "text": "科长"
+                                                            },
+                                                            {
+                                                                "children": [],
+                                                                "checked": null,
+                                                                "id": "0101010104010202",
+                                                                "text": "员工宿舍管理员"
+                                                            },
+                                                            {
+                                                                "children": [],
+                                                                "checked": null,
+                                                                "id": "0101010104010203",
+                                                                "text": "维修工"
+                                                            },
+                                                            {
+                                                                "children": [],
+                                                                "checked": null,
+                                                                "id": "0101010104010204",
+                                                                "text": "司机"
+                                                            }
+                                                        ],
+                                                        "checked": null,
+                                                        "id": "01010101040102",
+                                                        "text": "后勤服务科"
+                                                    },
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [],
+                                                                "checked": null,
+                                                                "id": "0101010104010301",
+                                                                "text": "主任/医生"
+                                                            }
+                                                        ],
+                                                        "checked": null,
+                                                        "id": "01010101040103",
+                                                        "text": "医务室"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010101040104",
+                                                        "text": "食堂、物业外包管理"
+                                                    }
+                                                ],
+                                                "checked": null,
+                                                "id": "010101010401",
+                                                "text": "处长/副处长"
+                                            }
+                                        ],
+                                        "checked": null,
+                                        "id": "0101010104",
+                                        "text": "总务处"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010101050101",
+                                                        "text": "保卫干事"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010101050102",
+                                                        "text": "门卫"
+                                                    }
+                                                ],
+                                                "checked": null,
+                                                "id": "010101010501",
+                                                "text": "处长/副处长"
+                                            }
+                                        ],
+                                        "checked": null,
+                                        "id": "0101010105",
+                                        "text": "保卫处"
+                                    }
+                                ],
+                                "checked": null,
+                                "id": "01010101",
+                                "text": "行政管理"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101020101",
+                                                "text": "总监"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101020102",
+                                                "text": "专员"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101020103",
+                                                "text": "招待所管理员"
+                                            }
+                                        ],
+                                        "checked": null,
+                                        "id": "0101010201",
+                                        "text": "市场运营部"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102020101",
+                                                        "text": "经理"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102020102",
+                                                        "text": "开发"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102020103",
+                                                        "text": "美工"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102020104",
+                                                        "text": "专员"
+                                                    }
+                                                ],
+                                                "checked": null,
+                                                "id": "010101020201",
+                                                "text": "网络运营部"
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102020201",
+                                                        "text": "主任"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102020202",
+                                                        "text": "网络咨询师"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102020203",
+                                                        "text": "电话咨询师"
+                                                    }
+                                                ],
+                                                "checked": null,
+                                                "id": "010101020202",
+                                                "text": "网络咨询室"
+                                            }
+                                        ],
+                                        "checked": null,
+                                        "id": "0101010202",
+                                        "text": "网络营销部"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102030101",
+                                                        "text": "咨询室主任"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102030102",
+                                                        "text": "咨询师"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102030103",
+                                                        "text": "财务核算员"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102030104",
+                                                        "text": "区域经理"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102030105",
+                                                        "text": "县办主任"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102030106",
+                                                        "text": "乡办主任"
+                                                    },
+                                                    {
+                                                        "children": [],
+                                                        "checked": null,
+                                                        "id": "01010102030107",
+                                                        "text": "信息员"
+                                                    }
+                                                ],
+                                                "checked": null,
+                                                "id": "010101020301",
+                                                "text": "总监"
+                                            }
+                                        ],
+                                        "checked": null,
+                                        "id": "0101010203",
+                                        "text": "市场招生部"
+                                    }
+                                ],
+                                "checked": null,
+                                "id": "01010102",
+                                "text": "市场管理"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101030101",
+                                                "text": "处长/副处长"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101030102",
+                                                "text": "科长"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101030103",
+                                                "text": "干事"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101030104",
+                                                "text": "图书馆管理员"
+                                            }
+                                        ],
+                                        "checked": null,
+                                        "id": "0101010301",
+                                        "text": "教务处"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101030201",
+                                                "text": "处长/副处长"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101030202",
+                                                "text": "科长"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101030203",
+                                                "text": "干事"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101030204",
+                                                "text": "宿管教师"
+                                            }
+                                        ],
+                                        "checked": null,
+                                        "id": "0101010302",
+                                        "text": "学务处"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101030301",
+                                                "text": "院长/副院长"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101030302",
+                                                "text": "任课老师"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101030303",
+                                                "text": "班主任"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101030304",
+                                                "text": "院务干事"
+                                            },
+                                            {
+                                                "children": [],
+                                                "checked": null,
+                                                "id": "010101030305",
+                                                "text": "就业专员"
+                                            }
+                                        ],
+                                        "checked": null,
+                                        "id": "0101010303",
+                                        "text": "二级学院"
+                                    }
+                                ],
+                                "checked": null,
+                                "id": "01010103",
+                                "text": "教学管理"
+                            }
+                        ],
+                        "checked": null,
+                        "id": "010101",
+                        "text": "执行院长"
+                    }
+                ],
+                "checked": null,
+                "id": "0101",
+                "text": "院长"
+            }
+        ],
+        "checked": null,
+        "id": "01",
+        "text": "董事长"
+    },
+    {
+        "children": [],
+        "checked": null,
+        "id": "02",
+        "text": "系统管理员"
+    }
+]

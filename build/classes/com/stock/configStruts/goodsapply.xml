@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="goodsapply" namespace="/goodsapply" extends="struts-default">
+		<!-- 查询该账户的申请记录 -->
+		<action name="find" class="com.stock.goodsapply.action.GoodsapplyAction" method="find"></action>
+		<!-- 查询物品类型 -->
+		<action name="getgoods" class="com.stock.goodsapply.action.GoodsapplyAction" method="getgoods"></action>
+		<!-- 提交申请单 -->
+		<action name="save" class="com.stock.goodsapply.action.GoodsapplyAction" method="save">
+			<result name="success">/jsp/goodsapply.jsp</result>
+		</action>
+	</package>
+</struts>

@@ -1,0 +1,33 @@
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- 加载驱动类 -->
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<!-- JDBC连接字符串 -->
+		<property name="connection.url">jdbc:mysql://localhost:3306/stock</property>
+		<!-- 用户名 -->
+		<property name="connection.username">root</property>
+		<!-- 密码 -->
+		<property name="connection.password">666666</property>  
+		<!-- 数据库方言 -->
+		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+		<!-- 打印sql -->
+		<property name="show_sql">true</property>
+		<!-- 格式化sql -->
+		<property name="format_sql">true</property>
+		<!-- 加载映射文件 -->
+
+		<!-- <mapping resource="youxin/com/hibernateConfig/client/Acc_contrastcar.hbm.xml"/> -->
+		<mapping class="com.stock.pojo.Acc"/>
+		<mapping class="com.stock.pojo.Menu"/>
+		<mapping class="com.stock.pojo.Rule"/>
+		<mapping class="com.stock.pojo.Rule_Menu"/>
+		<mapping class="com.stock.pojo.Department"/>
+		<mapping class="com.stock.pojo.Personnel"/>
+		<mapping class="com.stock.pojo.Supplier"/>
+		<mapping class="com.stock.pojo.Depot"/>
+		<mapping class="com.stock.pojo.Goods"/>
+		<mapping class="com.stock.pojo.GoodsApply"/>
+		<mapping class="com.stock.pojo.GoodsApplyOut"/>
+	</session-factory>
+</hibernate-configuration>

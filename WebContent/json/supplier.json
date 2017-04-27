@@ -1,0 +1,6 @@
+[
+	{"field":"id","title":"主键","width":"100","align":"center"},
+	{"field":"num","title":"供应商编号","width":"100","editor":{"type":"text"},"align":"center"},
+	{"field":"name","title":"供应商名称","width":"100","editor":{"type":"text"},"align":"center"},
+	{"field":"remarks","title":"备注","width":"100","editor":{"type":"text"},"align":"center"}
+]

@@ -1,0 +1,14 @@
+[
+	{"field":"id","title":"主键","width":"80","align":"center"},
+	{"field":"goodtype","title":"物品类型","width":"80","align":"center"},
+	{"field":"names","title":"物品名称","width":"80","align":"center"},
+	{"field":"spec","title":"规格","width":"100","align":"center"},
+	{"field":"model","title":"型号","width":"80","align":"center"},
+	{"field":"unit","title":"计量单位","width":"80","align":"center"},
+	{"field":"number","title":"数量","width":"80","align":"center"},
+	{"field":"applicant","title":"申请人","width":"80","align":"center"},
+	{"field":"applytime","title":"申请时间","width":"150","align":"center"},
+	{"field":"approver","title":"审批人","width":"80","align":"center"},
+	{"field":"approvaltime","title":"审批时间","width":"150","align":"center"},
+	{"field":"state","title":"状态","width":"80","align":"center"}
+]
